@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@layer base {
+  body {
+    font-family: "Raleway Variable", sans-serif;
+  }
+}
+@layer components {
+  .form-controle {
+    @apply w-96 px-2 py-1 rounded-md focus:outline-none border border-gray-700 focus:border-2;
+  }
+}
